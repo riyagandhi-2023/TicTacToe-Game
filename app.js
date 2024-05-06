@@ -50,7 +50,7 @@ boxes.forEach((box) => {
     });
 });
 
-const gameDrw = () => {
+const gameDraw = () => {
     msg.innerText = `Game was a Draw.`;
     msgContainer.classList.remove("hide");
     disableBoxes();
